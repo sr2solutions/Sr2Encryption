@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>SR2 Solutions</Authors>
+    <Company>SR2 Solutions</Company>
+    <Description>The official .Net module for the SR2 Encryption service from SR2 Solutions.</Description>
+    <PackageProjectUrl>https://www.sr2solutions.com/encryption</PackageProjectUrl>
+    <RepositoryUrl />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>
